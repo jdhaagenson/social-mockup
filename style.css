@@ -1,0 +1,6 @@
+#cover {
+    display: block;
+    box-sizing:content-box;
+    height: 850px;
+    background-color: #4b5b9e;
+}
