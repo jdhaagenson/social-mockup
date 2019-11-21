@@ -8,23 +8,50 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section id="headerbar">
-        <div id="cover"></div>
+    <header>
         <div id="profile-pic"></div>
-        <h1>Your Name</h1>
-        <h3>Website</h3>
-        <button id="like-button" class="buttons">Like</button>
-        <button id="follow-button" class="buttons">Follow</button>
-        <button id="message" class="buttons">Message</button>
+        <h2>John Doe</h2>
+        <h4>CEO of Dead or Alive, LLC.</h4>
+        <button id="like" class="buttons"><span class="icon"> &#128077; </span>Like</button>
+        <button id="follow-button" class="buttons"><span class="icon">&#x2b; </span>Follow</button>
+        <button id="message" class="buttons"><span class="icon">📩 </span>Message</button>
         <button id="dots" class="buttons">...</button>
-        <nav id="navigate">
-            <button id="timeline" class="navbutton">Timeline</button>
-            <button id="about" class="navbutton">About</button>
-            <button id="welcome" class="navbutton">Welcome</button>
-            <button id="fwb" class="navbutton">FWB</button>
-            <button id="more" class="navbutton dropdown">More</button>
-        </nav>
-    </section>
+    </header>
+    <nav id="navigate">
+        <button id="timeline" class="navbutton">Timeline</button>
+        <button id="about" class="navbutton">About</button>
+        <button id="welcome" class="navbutton">Welcome</button>
+        <button id="fwb" class="navbutton">FWB</button>
+        <button id="more" class="navbutton dropdown">More</button>
+    </nav>
+    <div class="widget">
+        <div class="col" id="left">
+            <hr>
+            <div class="box"></div>
+            <h3 class="left-side">About John Doe</h3>
+            <div id="line">
+                <p class="left-side">
+                    <hr>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.
+                    <hr class="line2">
+                </p>
+            </div>
+        </div>
+        <div class="col" id="right">
+            <div class="box"></div>
+            <h3 class="right-side" id="post-name">John Doe</h3>
+            <h6 class="right-side" id="date">5 minutes ago</h6>
+            <p class="right-content">Lorem ipsum dolor sit amet.</p>
+            <div id="post-actions">
+                <p>
+                    <button type="button" class="post-button" id="like-button">Like</button>
+                    <button type="button" class="post-button" id="comment">Comment</button>
+                    <button type="button" class="post-button" id="share">Share</button>
+                </p>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>
